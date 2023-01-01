@@ -1,0 +1,32 @@
+.capa {
+	width: 100%;
+	height: 568px;
+
+	position: absolute;
+	top: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: url("../../assets/images/desktop/image-hero.jpg");
+	z-index: -1;
+}
+
+.bannerContainer {
+	max-width: 350px;
+	height: 190px;
+
+	font-size: 1.300rem;
+	color: #FFF;
+
+	padding: 10px;
+	border: 1px solid white;
+
+	display: flex;
+	align-items: center;
+}
+
+.bannerContainer h1 {
+	font-weight: 500;
+}

@@ -1,0 +1,34 @@
+.headerContainer {
+	width: 100%;
+	height: 100px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: rgba(0, 0, 0, .25);
+	position: relative;
+}
+
+.menuNav {
+	display: flex;
+	list-style: none;
+}
+
+.menuItem {
+	font-size: 1rem;
+	margin-left: 30px;
+}
+
+.menuLink {
+	text-decoration: none;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.logo {
+	text-decoration: none;
+	font-size: 2.069rem;
+	font-weight: 700;
+	color: #FFF;
+}
