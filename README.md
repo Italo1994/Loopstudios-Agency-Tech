@@ -20,12 +20,12 @@
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 
 
-<h1 align="center">Status do Projeto</h1>
+<h1 align="center">Descrição do Projeto</h1>
 <p>
   Um modelo de website para uma agência que oferece conteúdos e informações sobre carreiras em tecnologia. O projeto está sendo desenvolvido em React e é dividido entre quatro seções na página principal.
 </p>
 
 
-<h1 align="center">Project Status</h1>
+<h1 align="center">Status do Projeto</h1>
 
 > :construction: Em Desenvolvimento :construction:
