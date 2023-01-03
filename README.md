@@ -29,3 +29,22 @@
 <h1 align="center">Status do Projeto</h1>
 
 > :construction: Em Desenvolvimento :construction:
+
+<h1 align="center">Acesso ao Projeto</h1>
+
+*Clone o projeto https://github.com/Italo1994/Loopstudios-Agency-Tech.git
+
+
+<h1 align="center">Abrir e Rodar o Projeto</h1>
+
+*Após clonar o repositório do projeto na sua máquina local, execute os comandos abaixo:*
+
+- `Instalar as dependências do projeto`: npm install
+- `Executar o projeto`: npm start
+- `Acesse o seu localhost no navegador para o projeto`: [http://localhost:3000](http://localhost:3000)
+
+
+
+<h1 align="center"> Tecnologias Utilizadas</h1>
+
+- `React`
