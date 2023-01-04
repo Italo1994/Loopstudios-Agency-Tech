@@ -8,15 +8,22 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: space-around;
+
+	padding: 10px;
 }
 
 .title {
 	color: #000;
 	font-size: 2rem;
 	font-weight: 500;
+	
+	text-align: right;
 }
 
 .paragraph {
-	color: #C3C3C3;
-	font-size: 1.125rem;
+	color: #38434F;
+	font-size: 1.025rem;
+
+	margin-top: 20px;
+	text-align: right;
 }
