@@ -22,7 +22,7 @@
 
 <h1 align="center">Descrição do Projeto</h1>
 <p>
-  Um modelo de website para uma agência que oferece conteúdos e informações sobre carreiras em tecnologia. O projeto está sendo desenvolvido em React e é dividido entre quatro seções na página principal.
+  Um modelo de website para uma agência que oferece conteúdos e informações sobre carreiras em tecnologia. O projeto está sendo desenvolvido em React e é dividido entre quatro seções na página principal. O projeto é todo implementado utilizando o React.
 </p>
 
 
