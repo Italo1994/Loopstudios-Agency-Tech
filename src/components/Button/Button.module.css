@@ -1,12 +1,30 @@
 .buttonContainer {
-	min-width: 100px;
-	max-width: 100px;
-	height: 30px;
-	padding: 5px;
+	min-width: 180px;
+	max-width: 150px;
+
+	border: 1px solid #C3C4C3;
 
 	background-color: #FFF;
-	color: #000;
+
+}
+
+.buttonContainer button {
+	width: 100%;
+	padding: 10px;
 
 	font-size: 1.068rem;
-	font-weight: 600;
+	font-weight: 700;
+
+	font-size: 1.068rem;
+	font-weight: 500;
+
+	border: none;
+}
+
+.buttonContainer button:hover {
+	background: purple;
+	color: #FFF;
+	cursor: pointer;
+
+	transition: background .8s;
 }

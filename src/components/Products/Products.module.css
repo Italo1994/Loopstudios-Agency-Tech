@@ -1,9 +1,44 @@
+@import url('./Products.module.responsive.css');
+
 .containerProducts {
-	width: 970px;
+	width: 1100px;
+	max-width: 1100px;
 
 	margin: 0 auto;
+	padding: 100px 0;
 
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 20px;
+}
+
+.link {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+}
+
+.link:hover {
+	opacity: .9;
+}
+
+.areaTitle {
+	width: 1100px;
+	max-width: 1100px;
+
+	margin: 0 auto;
+	padding: 90px 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+	.containerProducts {
+		width: 100%;
+		padding: 20px;
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
 }
