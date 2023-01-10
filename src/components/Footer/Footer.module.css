@@ -46,6 +46,44 @@
 	height: 60%;
 }
 
+.menuNav {
+	display: flex;
+	list-style: none;
+}
+
 p {
 	color: #38434F;
+}
+
+@media screen and (max-width: 550px) {
+	.footerContainer {
+		height: auto;
+		padding: 20px 0;
+	}
+
+	.footerContent {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		row-gap: 68px;
+	}
+
+	.footerMenuGrid {
+		justify-content: space-around;
+		align-items: center;
+
+		row-gap: 25px;
+	}
+
+	.footerSocialGrid {
+		justify-content: space-around;
+		align-items: center;
+
+		row-gap: 25px;
+	}
+
+	.menuNav {
+		column-gap: 25px;
+	}
 }

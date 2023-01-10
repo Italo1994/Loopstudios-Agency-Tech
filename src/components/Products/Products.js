@@ -29,7 +29,7 @@ function Products() {
 				</a>
 			</div>
 			<div>
-				<a href="#" className={styles.link}>
+				<a href="https://www.youtube.com/watch?v=gg_o_SBAitw&t=449s&ab_channel=JavierNathaniel" target="_blank" className={styles.link}>
 					<Image src={imgSoccer} alt="image soccer team" width={100} height={100} />
 					<Title text="Soccer Team VR" />
 				</a>

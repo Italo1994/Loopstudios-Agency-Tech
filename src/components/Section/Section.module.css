@@ -1,7 +1,7 @@
 .sectionContainer {
-	min-width: 1100px;
+	
 	max-width: 1100px;
-	height: 500px;
+	min-height: 500px;
 
 	background-color: #FFF;
 
@@ -17,4 +17,16 @@
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+	.sectionContainer {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 100px;
+	}
+
+	.areaContent {
+		grid-template-columns: 1fr;
+	}
 }

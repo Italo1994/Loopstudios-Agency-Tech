@@ -3,13 +3,24 @@
 	height: 100px;
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 
-	background-color: rgba(0, 0, 0, .25);
+	background-color: rgba(0, 0, 0, .65);
 	position: relative;
 
 	z-index: 1;
+}
+
+.headerContent {
+	width: 1100px;
+	max-width: 1100px;
+
+	height: 80%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .menuNav {
@@ -43,4 +54,19 @@
 .logo:hover {
 	color: #903DA7;
 	transition: color .8s;
+}
+
+
+
+@media screen and (max-width: 550px) {
+	.menuNav {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 25px;
+	}
+
+	.menuItem:not(:first-child) {
+		font-size: .9rem;
+		margin-left: 0px;
+	}
 }

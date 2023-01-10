@@ -23,7 +23,7 @@ function Footer() {
 					</ul>
 				</div>
 				<div className={styles.footerSocialGrid}>
-					<ul className={stylesHeader.menuNav}>
+					<ul className={styles.menuNav}>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}> <Image src={iconFacebook} alt="icon facebook" width={100} height={68} /> </a></li>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}> <Image src={iconTwitter} alt="icon twitter" width={100} height={68} /> </a></li>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}> <Image src={iconPinterest} alt="icon pinterest" width={100} height={68} /> </a></li>
