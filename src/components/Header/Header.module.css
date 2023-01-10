@@ -17,8 +17,8 @@
 	list-style: none;
 }
 
-.menuItem {
-	font-size: 1rem;
+.menuItem:not(:first-child) {
+	font-size: .9rem;
 	margin-left: 30px;
 }
 

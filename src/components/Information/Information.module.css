@@ -1,12 +1,12 @@
 .containerInformation {
-	min-width: 390px;
-	max-width: 400px;
+	min-width: 450px;
+	max-width: 500px;
 	height: 80%;
 	text-transform: uppercase;
 
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	justify-content: space-around;
 	align-items: flex-end;
 
 	padding: 10px;
