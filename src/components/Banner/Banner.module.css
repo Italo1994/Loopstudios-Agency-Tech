@@ -34,3 +34,25 @@
 	font-weight: 500;
 	line-height: 2.98rem;
 }
+
+
+
+@media screen and (max-width: 550px) {
+
+	.capa {
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.bannerContainer {
+		border: none;
+		height: 150px;
+
+		background-color: rgba(0, 0, 0, .5);
+	}
+
+	.bannerContainer h1 {
+		text-align: center;
+	}
+}

@@ -28,6 +28,14 @@
 	list-style: none;
 }
 
+.menuNavMobile {
+	display: none;
+	flex-direction: column;
+
+	width: 100%;
+	list-style: none;
+}
+
 .menuItem:not(:first-child) {
 	font-size: .9rem;
 	margin-left: 30px;
@@ -56,13 +64,48 @@
 	transition: color .8s;
 }
 
+.buttonMobile {
 
+}
 
 @media screen and (max-width: 550px) {
 	.menuNav {
 		flex-direction: column;
 		align-items: center;
 		row-gap: 25px;
+		display: none;
+	}
+
+	.menuNavMobile {
+		display: flex;
+		justify-content: center;
+
+		width: 100%;
+
+		position: absolute;
+		top: 101px;
+
+		row-gap: 15px;
+/*		padding: 15px;*/
+
+		background-color: rgba(0, 0, 0, .8);
+
+		z-index: 1;
+	}
+
+	.menuItem {
+		width: 100%;
+		text-align: center;
+
+		padding: 15px;
+		border-bottom: 1px solid gray;
+	}
+
+	.menuLink {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
 	}
 
 	.menuItem:not(:first-child) {
