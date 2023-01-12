@@ -14,7 +14,7 @@ function Footer() {
 			<div className={styles.footerContent}>
 				<div className={styles.footerMenuGrid}>
 					<a href="#" className={stylesHeader.logo}>loopstudios</a>
-					<ul className={stylesHeader.menuNav}>
+					<ul className={styles.menuNav}>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}>About</a></li>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}>Careers</a></li>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}>Events</a></li>
@@ -23,7 +23,7 @@ function Footer() {
 					</ul>
 				</div>
 				<div className={styles.footerSocialGrid}>
-					<ul className={styles.menuNav}>
+					<ul className={styles.menuSocial}>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}> <Image src={iconFacebook} alt="icon facebook" width={100} height={68} /> </a></li>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}> <Image src={iconTwitter} alt="icon twitter" width={100} height={68} /> </a></li>
 						<li className={stylesHeader.menuItem}><a href="#" className={stylesHeader.menuLink}> <Image src={iconPinterest} alt="icon pinterest" width={100} height={68} /> </a></li>

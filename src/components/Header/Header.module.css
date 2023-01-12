@@ -65,15 +65,30 @@
 }
 
 .buttonMobile {
+	display: none;
+	border-radius: 5px;
+}
 
+.separator {
+	border-bottom: .8px solid C3C3C3;
 }
 
 @media screen and (max-width: 550px) {
+	.logo {
+		margin-left: 20px;
+	}
+
 	.menuNav {
 		flex-direction: column;
 		align-items: center;
 		row-gap: 25px;
 		display: none;
+	}
+
+	.buttonMobile {
+		padding: 5px;
+		background-color: rgba(0, 0, 0, .4);
+		cursor: pointer;
 	}
 
 	.menuNavMobile {
@@ -98,7 +113,7 @@
 		text-align: center;
 
 		padding: 15px;
-		border-bottom: 1px solid gray;
+		
 	}
 
 	.menuLink {
@@ -111,5 +126,10 @@
 	.menuItem:not(:first-child) {
 		font-size: .9rem;
 		margin-left: 0px;
+	}
+
+	.buttonMobile {
+		display: inline-block;
+		margin-right: 20px;
 	}
 }

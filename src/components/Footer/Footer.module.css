@@ -48,6 +48,12 @@
 
 .menuNav {
 	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.menuSocial {
+	display: flex;
 	list-style: none;
 }
 
@@ -84,6 +90,12 @@ p {
 	}
 
 	.menuNav {
+		flex-direction: column;
 		column-gap: 25px;
+	}
+
+	.menuColum {
+		flex-direction: column;
+		row-gap: 10px;
 	}
 }

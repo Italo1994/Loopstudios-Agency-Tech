@@ -26,6 +26,7 @@
 
 .link:hover {
 	opacity: .9;
+	box-shadow: 5px 8px 4px 3px rgba(0, 0, 0, .5);
 }
 
 .areaTitle {
@@ -56,5 +57,9 @@
 
 	.containerProducts div {
 		width: 100%;
+	}
+
+	.link:hover {
+		box-shadow: 5px 5px 4px 3px rgba(0, 0, 0, .5);
 	}
 }

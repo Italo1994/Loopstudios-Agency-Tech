@@ -8,7 +8,7 @@
 	display: flex;
 	align-items: center;
 
-	background-image: linear-gradient(to left, rgba(20,0,173,.8) 0%, rgba(120, 90, 90, .2) 50%),
+	background-image: linear-gradient(114deg, rgba(20,0,173,.8) 20%, rgba(120, 90, 90, .2) 68%),
 	url("../../assets/images/desktop/image-hero.jpg");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -43,9 +43,14 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		align-items: center;
+
+		background-image: url("../../assets/images/mobile/image-hero.jpg");
+
+		height: 598px;
 	}
 
 	.bannerContainer {
+		display: none;
 		border: none;
 		height: 150px;
 

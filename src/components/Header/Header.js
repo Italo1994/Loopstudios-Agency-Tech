@@ -9,7 +9,7 @@ import iconHamburger from '../../assets/images/icon-hamburger.svg';
 function Header() {
 	$(document).ready(() => {
 		$("#buttonMob").click(() => {
-			$("#menu").slideToggle("slow");
+			$("#menu").slideUp("slow", () => {});
 		});
 	});
 
