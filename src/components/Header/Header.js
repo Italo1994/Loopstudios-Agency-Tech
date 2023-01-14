@@ -5,13 +5,19 @@ import $ from 'jquery';
 import Image from '../Image/Image.js';
 
 import iconHamburger from '../../assets/images/icon-hamburger.svg';
+import iconClose from '../../assets/images/icon-close.svg';
 
 function Header() {
-	$(document).ready(() => {
+	$(document).ready(function(event) {
 		$("#buttonMob").click(() => {
-			$("#menu").slideUp("slow", () => {});
+			$("#menu").slideToggle(1000);
+			event.stopPropagation();
 		});
 	});
+
+	function handleSrcButton() {
+		$("#imgButton").attr("src", {iconClose});
+	}
 
 	return(
 		<header className={styles.headerContainer}>
@@ -26,10 +32,11 @@ function Header() {
 				</ul>
 
 				<button type="button" className={styles.buttonMobile} id="buttonMob">
-					<Image src={iconHamburger} alt="button mobile" width={100} height={68} />
+					<Image id="imgButton" src={iconHamburger} alt="button mobile" width={100} height={68} />
 				</button>
 
 				<ul className={styles.menuNavMobile} id="menu">
+					
 					<li className={styles.menuItem}><a href="#" className={styles.menuLink}>About</a></li>
 					<li className={styles.menuItem}><a href="#" className={styles.menuLink}>Careers</a></li>
 					<li className={styles.menuItem}><a href="#" className={styles.menuLink}>Events</a></li>
