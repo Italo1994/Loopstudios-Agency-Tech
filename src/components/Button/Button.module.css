@@ -22,9 +22,9 @@
 }
 
 .buttonContainer button:hover {
-	background: purple;
-	color: #FFF;
 	cursor: pointer;
 
-	transition: background .8s;
+	border: 1px solid purple;
+
+	transition: border 1s;
 }

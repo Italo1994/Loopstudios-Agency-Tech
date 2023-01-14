@@ -2,7 +2,7 @@
 	min-width: 450px;
 	max-width: 500px;
 	height: 80%;
-	text-transform: uppercase;
+	text-transform: captalize;
 
 	display: flex;
 	flex-direction: column;
@@ -27,10 +27,10 @@
 
 .paragraph {
 	color: #38434F;
-	font-size: 1.025rem;
+	font-size: 1.125rem;
 
 	margin-top: 20px;
-	text-align: right;
+	text-align: justify;
 }
 
 @media screen and (max-width: 550px) {
@@ -49,9 +49,5 @@
 
 	.title {
 		text-align: center;
-	}
-
-	.paragraph {
-		text-align: justify;
 	}
 }
