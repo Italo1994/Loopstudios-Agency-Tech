@@ -32,7 +32,8 @@
 
 <h1 align="center">Acesso ao Projeto</h1>
 
-*Clone o projeto https://github.com/Italo1994/Loopstudios-Agency-Tech.git
+*Clone o projeto:* https://github.com/Italo1994/Loopstudios-Agency-Tech.git
+*Github pages:* https://italo1994.github.io/Loopstudios-Agency-Tech/
 
 
 <h1 align="center">Abrir e Rodar o Projeto</h1>
